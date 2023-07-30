@@ -117,9 +117,9 @@ dircreate
         read adm_ids
         echo "Admin_ID=$adm_ids" >> /root/ResBotAuth
         }
-        echo -ne "Username admin panel use '@' [Ex: @ApaItuLeee] : "
+        echo -ne "Username admin panel use '@' [Ex: @givpn] : "
         read admin_pnl
-        [[ -z $admin_pnl ]] && admin_pnl="@ApaItuLeee"
+        [[ -z $admin_pnl ]] && admin_pnl="@givpn"
         echo ""
         echo -ne "Limit trial for reseller create user trial [default:1] : "
         read limit_pnl
